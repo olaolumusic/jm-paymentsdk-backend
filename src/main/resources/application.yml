@@ -1,0 +1,29 @@
+server:
+  port : 8081
+spring:
+  profiles:
+    active: 'uat'
+app:
+  payment:
+    isw:
+      secretKey: ''
+      authUrl: ''
+      clientId: ''
+      merchantCode: ''
+      merchantEmail: ''
+      merchantName: ''
+      paymentItemId: ''
+      userPassword: ''
+      webPayUrl: ''
+      iswUrl: ''
+      terminalId: ''
+    monnify:
+      apiKey: ''
+      apiSecretKey: ''
+      contractCode: ''
+      paymentUrl: ''
+      reserveAccountNo: ''
+    paystack:
+      baseUrl: ''
+      publicKey: ''
+      secretKey: ''
